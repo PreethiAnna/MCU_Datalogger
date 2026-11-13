@@ -950,6 +950,259 @@
 			)
 		)
 	)
+	(hierarchical_label "D3"
+		(shape bidirectional)
+		(at 52.07 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0054eb88-3352-4b84-9b2f-8f24bacb8d7f")
+	)
+	(hierarchical_label "VCC"
+		(shape passive)
+		(at 52.07 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "011968c8-ae0c-491e-b4fb-c1f5d889ae5c")
+	)
+	(hierarchical_label "D5"
+		(shape bidirectional)
+		(at 52.07 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2da6d6fb-f7c6-4e72-96d1-ce2fcc11f9cd")
+	)
+	(hierarchical_label "VCC"
+		(shape passive)
+		(at 97.79 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2e1bd230-fd8a-435a-a5e8-b62647ff2428")
+	)
+	(hierarchical_label "RX"
+		(shape input)
+		(at 90.17 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "33ade26c-f313-4ac4-8aa0-8a4d36ce3d29")
+	)
+	(hierarchical_label "MOSI"
+		(shape input)
+		(at 97.79 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4119d483-79aa-484f-a669-a7eeea65ceec")
+	)
+	(hierarchical_label "SCK"
+		(shape passive)
+		(at 55.88 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4bdb2bf2-8a3f-4040-93ef-7f017775b870")
+	)
+	(hierarchical_label "TX"
+		(shape output)
+		(at 90.17 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "510b433d-e4a6-459a-8333-b3b5551da0e4")
+	)
+	(hierarchical_label "VCC"
+		(shape passive)
+		(at 90.17 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5664a345-3a1b-45c3-92b3-628caf88cded")
+	)
+	(hierarchical_label "D6"
+		(shape bidirectional)
+		(at 52.07 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "60d8f85b-7947-486d-b19b-a14119e89d0b")
+	)
+	(hierarchical_label "VCC"
+		(shape passive)
+		(at 55.88 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6b26584f-bf1f-4641-83d6-eeb310469dcb")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 90.17 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "714354d6-0b71-4830-acb3-5e102b1af16d")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 97.79 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "881bc76c-a3d3-4d26-bead-bd1327458185")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 52.07 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "888e37be-de6c-48a2-953a-ac4a34c9d90b")
+	)
+	(hierarchical_label "MISO"
+		(shape output)
+		(at 85.09 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "976705fd-b14e-48ba-ba6c-f4d843d766a9")
+	)
+	(hierarchical_label "SDA"
+		(shape bidirectional)
+		(at 55.88 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a021b01c-bba5-47cb-b1bc-88b910f65652")
+	)
+	(hierarchical_label "D7"
+		(shape bidirectional)
+		(at 52.07 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a58f2c31-1ab4-49b7-a9e7-4689950842ca")
+	)
+	(hierarchical_label "D2"
+		(shape bidirectional)
+		(at 52.07 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a8d2c44b-3d58-40a1-825d-ae657df15503")
+	)
+	(hierarchical_label "D8"
+		(shape bidirectional)
+		(at 52.07 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b19105e0-083a-49a1-880e-43b2d2518276")
+	)
+	(hierarchical_label "SCK"
+		(shape passive)
+		(at 85.09 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d43d4847-0952-466a-aa3f-8786d53b161c")
+	)
+	(hierarchical_label "D4"
+		(shape bidirectional)
+		(at 52.07 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f1048507-cfcc-419d-8d02-e13062244a56")
+	)
+	(hierarchical_label "GND"
+		(shape passive)
+		(at 55.88 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f126d26a-cad0-497b-a293-45648f42d885")
+	)
+	(hierarchical_label "RESET"
+		(shape passive)
+		(at 85.09 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f22a8188-3c6e-4783-a0e7-88cae13f6039")
+	)
 	(symbol
 		(lib_id "Connector:Conn_01x09_Pin")
 		(at 46.99 88.9 0)
@@ -958,7 +1211,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "80b2c9b1-c64c-4268-9461-5673288b350b")
 		(property "Reference" "J3"
 			(at 47.625 73.66 0)
@@ -1001,6 +1253,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Purpose" "GPIO"
+			(at 49.022 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "5"
@@ -1047,7 +1307,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9832483f-7a92-4acd-9c2a-f105c3ada1cd")
 		(property "Reference" "J1"
 			(at 51.435 45.72 0)
@@ -1092,6 +1351,14 @@
 				(hide yes)
 			)
 		)
+		(property "Purpose" "I2C"
+			(at 53.34 60.706 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "adfc0139-2662-49bc-bee2-e42e0a23818a")
 		)
@@ -1121,7 +1388,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a8a942f6-e265-4d73-8cf6-d15bc801d3ff")
 		(property "Reference" "J2"
 			(at 85.725 45.72 0)
@@ -1166,6 +1432,14 @@
 				(hide yes)
 			)
 		)
+		(property "Purpose" "Serial UART"
+			(at 86.868 60.706 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "adfc0139-2662-49bc-bee2-e42e0a23818b")
 		)
@@ -1195,7 +1469,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d0d45bc2-a41c-4a42-b8e0-23c8097e39b6")
 		(property "Reference" "J4"
 			(at 91.44 80.01 0)
@@ -1238,6 +1511,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Purpose" "ICSP"
+			(at 91.694 95.504 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "4"
