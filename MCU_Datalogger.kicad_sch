@@ -4671,7 +4671,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ATMEGA328P-AU:QFP80P900X900X120-32N"
+		(property "Footprint" "ATMEGA328P-AU:ATMEGA328P-AU"
 			(at 199.39 66.04 0)
 			(effects
 				(font
@@ -5331,7 +5331,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DS1337S_:SOIC127P600X175-8N"
+		(property "Footprint" "DS1337S:DS1337S"
 			(at 63.5 69.85 0)
 			(effects
 				(font

@@ -1235,7 +1235,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "80b2c9b1-c64c-4268-9461-5673288b350b")
-		(property "Reference" "J3"
+		(property "Reference" "J2"
 			(at 54.61 68.834 0)
 			(effects
 				(font
@@ -1251,7 +1251,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical"
 			(at 50.8 85.09 0)
 			(effects
 				(font
@@ -1316,7 +1316,7 @@
 		(instances
 			(project ""
 				(path "/d75ca329-62a0-409b-a831-f1eb9d96079f/ed6ab741-3046-488a-bbe7-17ced9215c1c"
-					(reference "J3")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -1412,7 +1412,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a8a942f6-e265-4d73-8cf6-d15bc801d3ff")
-		(property "Reference" "J2"
+		(property "Reference" "J3"
 			(at 88.9 44.958 0)
 			(effects
 				(font
@@ -1428,7 +1428,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 85.09 53.34 0)
 			(effects
 				(font
@@ -1478,7 +1478,7 @@
 		(instances
 			(project ""
 				(path "/d75ca329-62a0-409b-a831-f1eb9d96079f/ed6ab741-3046-488a-bbe7-17ced9215c1c"
-					(reference "J2")
+					(reference "J3")
 					(unit 1)
 				)
 			)
