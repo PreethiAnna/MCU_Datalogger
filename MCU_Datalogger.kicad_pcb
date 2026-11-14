@@ -7880,7 +7880,7 @@
 	(footprint "Symbol:KiCad-Logo2_5mm_SilkScreen"
 		(layer "B.Cu")
 		(uuid "0e460347-42be-446e-8ce2-fee7eafbdd65")
-		(at 69.15 71.925 180)
+		(at 90.116252 70.585 180)
 		(descr "KiCad Logo")
 		(tags "Logo KiCad")
 		(property "Reference" "REF**"
@@ -8753,6 +8753,24 @@
 				(thickness 0.1)
 			)
 			(justify left bottom)
+		)
+	)
+	(gr_text_box "Data logger with ATMega328P\n- 2Mbit EEPROM\n- RTC\n- I2C, SPI, GPIO"
+		(start 63.175 63.9375)
+		(end 79.1 73.9625)
+		(layer "B.SilkS")
+		(uuid "faa6df59-32be-49d5-bf38-94a8aa1798fa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left top mirror)
+		)
+		(border yes)
+		(stroke
+			(width 0.1)
+			(type solid)
 		)
 	)
 	(gr_text_box "MOSI  VCC\nSCK   MISO\nRESET GND"
