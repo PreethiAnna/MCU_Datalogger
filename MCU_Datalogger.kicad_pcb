@@ -517,7 +517,7 @@
 			(pintype "power_in")
 			(uuid "0ea80624-28ab-49d4-8464-58fe1d880740")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8_5.23x5.23mm_P1.27mm.wrl"
+		(model "C:/Users/preethianna/OneDrive/Documents/KiCad/Pi_lib/DS1337S_/DS1337S_.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -525,7 +525,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -5281,6 +5281,17 @@
 			(solder_mask_margin 0.102)
 			(uuid "734b4d15-54d1-4536-9930-75d37af762ba")
 		)
+		(model "C:/Users/preethianna/OneDrive/Documents/KiCad/Pi_lib/ATMEGA328P-AU/ATMEGA328P-AU.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 		(layer "F.Cu")
@@ -6883,6 +6894,17 @@
 			(solder_mask_margin 0.102)
 			(uuid "65ee0f17-0e16-4871-b986-172a6fa0b4e0")
 		)
+		(model "C:/Users/preethianna/OneDrive/Documents/KiCad/Pi_lib/DS1337S_/DS1337S_.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
@@ -7865,7 +7887,7 @@
 			(pintype "power_in")
 			(uuid "1138606b-d512-467e-965c-cd9f41715782")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8_5.23x5.23mm_P1.27mm.wrl"
+		(model "C:/Users/preethianna/OneDrive/Documents/KiCad/Pi_lib/DS1337S_/DS1337S_.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7873,7 +7895,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 0 0)
 			)
 		)
 	)
