@@ -3771,7 +3771,7 @@
 		)
 		(uuid "2c7d6658-55e1-4173-8cf6-5d132b2e212d")
 	)
-	(label "SCK"
+	(label "SCL"
 		(at 184.15 83.82 180)
 		(effects
 			(font
@@ -3921,7 +3921,7 @@
 		)
 		(uuid "706f54df-1491-4b91-a84f-7b23b7982dfc")
 	)
-	(label "SCK"
+	(label "SCL"
 		(at 83.82 143.51 0)
 		(effects
 			(font
@@ -3981,7 +3981,7 @@
 		)
 		(uuid "8b65f392-064a-465f-b17c-3388991b6fc8")
 	)
-	(label "SCK"
+	(label "SCL"
 		(at 45.72 62.23 180)
 		(effects
 			(font
@@ -4051,7 +4051,7 @@
 		)
 		(uuid "b3356f61-73c1-4247-93dd-920fd487cf41")
 	)
-	(label "SCK"
+	(label "SCL"
 		(at 184.15 60.96 180)
 		(effects
 			(font
@@ -4061,7 +4061,7 @@
 		)
 		(uuid "b9569854-4b04-4f48-8459-b93a8c4d4b9e")
 	)
-	(label "SCK"
+	(label "SCL"
 		(at 102.87 149.86 0)
 		(effects
 			(font
@@ -4071,7 +4071,7 @@
 		)
 		(uuid "bc3c87b5-853f-4d7f-a880-ae577b0238d3")
 	)
-	(label "SCK"
+	(label "SCL"
 		(at 45.72 143.51 0)
 		(effects
 			(font
@@ -4111,7 +4111,7 @@
 		)
 		(uuid "d5105092-7ff7-4009-ab53-29ddf1ce03e5")
 	)
-	(label "SCK"
+	(label "SCL"
 		(at 158.75 129.54 180)
 		(effects
 			(font
@@ -7032,7 +7032,7 @@
 			)
 			(uuid "3ef59dd0-8ddd-4b69-a20d-33f46e2bfdfa")
 		)
-		(pin "SCK" passive
+		(pin "SCL" passive
 			(at 158.75 129.54 180)
 			(effects
 				(font
