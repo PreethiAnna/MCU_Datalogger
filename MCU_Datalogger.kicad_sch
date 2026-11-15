@@ -53,12 +53,13 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "MICROCONTROLLER MCU, 8 BIT, ATMEGA, 20MH; MICROCONTROLLER MCU, 8 BIT, ATMEGA, 20MHZ, TQFP-32; Controller Family/Series:ATmega; CPU Speed:20MHz; Program Memory Size:32KB; RAM Memory Size:2KB; No. of Pins:32Pins; MCU Case Style:TQFP; No. of I/O's:23I/O's; Packaging:Each"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
@@ -71,16 +72,6 @@
 				)
 			)
 			(property "DATASHEET_URL" "https://s3.amazonaws.com/snapeda/datasheet/ATMEGA328PAU_Microchip_Technology.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "DESCRIPTION" "MICROCONTROLLER MCU, 8 BIT, ATMEGA, 20MH; MICROCONTROLLER MCU, 8 BIT, ATMEGA, 20MHZ, TQFP-32; Controller Family/Series:ATmega; CPU Speed:20MHz; Program Memory Size:32KB; RAM Memory Size:2KB; No. of Pins:32Pins; MCU Case Style:TQFP; No. of I/O's:23I/O's; Packaging:Each"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3174,7 +3165,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 121.92) (xy 149.86 125.73)
+			(xy 149.86 120.65) (xy 149.86 124.46)
 		)
 		(stroke
 			(width 0)
@@ -3404,7 +3395,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 119.38) (xy 158.75 119.38)
+			(xy 149.86 118.11) (xy 158.75 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3444,7 +3435,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 121.92) (xy 149.86 121.92)
+			(xy 158.75 120.65) (xy 149.86 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3730,6 +3721,16 @@
 		)
 		(uuid "02a6d122-33c0-42da-a78d-c181c3f46c70")
 	)
+	(label "ABC123"
+		(at 184.15 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "06073c92-cf26-466e-900e-6a3d850fa2bd")
+	)
 	(label "VCC"
 		(at 35.56 127 0)
 		(effects
@@ -3741,7 +3742,7 @@
 		(uuid "0b38a1ea-5a2d-4f8b-964b-20e7f85f447b")
 	)
 	(label "D3"
-		(at 204.47 129.54 0)
+		(at 187.96 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3751,7 +3752,7 @@
 		(uuid "21161e78-fff6-4749-9261-91e321d9c290")
 	)
 	(label "MISO"
-		(at 158.75 142.24 180)
+		(at 158.75 146.05 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3770,7 +3771,7 @@
 		)
 		(uuid "2c7d6658-55e1-4173-8cf6-5d132b2e212d")
 	)
-	(label "SCK"
+	(label "SCL"
 		(at 184.15 83.82 180)
 		(effects
 			(font
@@ -3781,7 +3782,7 @@
 		(uuid "32c9ef93-f2b0-435a-a071-03eb8ad36382")
 	)
 	(label "RX"
-		(at 158.75 137.16 180)
+		(at 158.75 135.89 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3791,7 +3792,7 @@
 		(uuid "38a1e019-94c7-41ea-9dca-2e0cd1afbf54")
 	)
 	(label "SDA"
-		(at 158.75 127 180)
+		(at 158.75 125.73 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3811,7 +3812,7 @@
 		(uuid "3df1f67d-947b-4c20-99ed-28f2a2708c4c")
 	)
 	(label "D7"
-		(at 204.47 139.7 0)
+		(at 187.96 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3821,7 +3822,7 @@
 		(uuid "3e13f5cb-81f4-49b9-9ca7-dbfc65f9f5f9")
 	)
 	(label "D4"
-		(at 204.47 132.08 0)
+		(at 187.96 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3831,7 +3832,7 @@
 		(uuid "40ad11ee-0f70-4e86-8732-5d887e48b832")
 	)
 	(label "VCC"
-		(at 149.86 119.38 180)
+		(at 149.86 118.11 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3871,7 +3872,7 @@
 		(uuid "4917de6d-3a1d-4579-8a8a-04a23ca0a229")
 	)
 	(label "RESET"
-		(at 158.75 147.32 180)
+		(at 158.75 148.59 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3901,7 +3902,7 @@
 		(uuid "66a0243b-85ac-48a7-ace9-7389d6100004")
 	)
 	(label "D2"
-		(at 204.47 127 0)
+		(at 187.96 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3920,7 +3921,7 @@
 		)
 		(uuid "706f54df-1491-4b91-a84f-7b23b7982dfc")
 	)
-	(label "SCK"
+	(label "SCL"
 		(at 83.82 143.51 0)
 		(effects
 			(font
@@ -3929,6 +3930,16 @@
 			(justify left bottom)
 		)
 		(uuid "7a342c85-7d14-40b2-991c-e7792c98d0af")
+	)
+	(label "SCK"
+		(at 158.75 140.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "82f89adc-9475-4ddb-b588-380fc057212b")
 	)
 	(label "SDA"
 		(at 184.15 81.28 180)
@@ -3941,7 +3952,7 @@
 		(uuid "83607e17-9a3c-4d35-9ed9-b1c381427c2b")
 	)
 	(label "TX"
-		(at 158.75 134.62 180)
+		(at 158.75 133.35 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3980,7 +3991,7 @@
 		)
 		(uuid "8b65f392-064a-465f-b17c-3388991b6fc8")
 	)
-	(label "SCK"
+	(label "SCL"
 		(at 45.72 62.23 180)
 		(effects
 			(font
@@ -3991,7 +4002,7 @@
 		(uuid "9da0aeb7-65c3-4fe1-8713-aa6413d782da")
 	)
 	(label "D8"
-		(at 204.47 142.24 0)
+		(at 187.96 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4001,7 +4012,7 @@
 		(uuid "a456702c-ad6f-4d83-b499-b218fc7a4067")
 	)
 	(label "D6"
-		(at 204.47 137.16 0)
+		(at 187.96 137.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4021,7 +4032,7 @@
 		(uuid "b00dc9a8-3ad0-4011-bced-d84a7aee66c6")
 	)
 	(label "MOSI"
-		(at 158.75 139.7 180)
+		(at 158.75 143.51 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4060,7 +4071,7 @@
 		)
 		(uuid "b9569854-4b04-4f48-8459-b93a8c4d4b9e")
 	)
-	(label "SCK"
+	(label "SCL"
 		(at 102.87 149.86 0)
 		(effects
 			(font
@@ -4070,7 +4081,7 @@
 		)
 		(uuid "bc3c87b5-853f-4d7f-a880-ae577b0238d3")
 	)
-	(label "SCK"
+	(label "SCL"
 		(at 45.72 143.51 0)
 		(effects
 			(font
@@ -4110,8 +4121,8 @@
 		)
 		(uuid "d5105092-7ff7-4009-ab53-29ddf1ce03e5")
 	)
-	(label "SCK"
-		(at 158.75 129.54 180)
+	(label "SCL"
+		(at 158.75 128.27 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4151,7 +4162,7 @@
 		(uuid "dee9df33-f035-4592-9e8e-8b95ef706531")
 	)
 	(label "D5"
-		(at 204.47 134.62 0)
+		(at 187.96 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5294,7 +5305,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "3e7665e9-2d86-4ab8-8e2f-9b93a5cf78c1")
+			(uuid "3e7665e9-2d86-4ab8-8e2f-9b93a5cf78c2")
 		)
 		(instances
 			(project ""
@@ -5533,7 +5544,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 149.86 125.73 0)
+		(at 149.86 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5542,7 +5553,7 @@
 		(fields_autoplaced yes)
 		(uuid "6e7a187e-69aa-4cf6-86c4-bf43c4d7cabc")
 		(property "Reference" "#PWR7"
-			(at 149.86 132.08 0)
+			(at 149.86 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5551,7 +5562,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 149.86 130.81 0)
+			(at 149.86 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5559,7 +5570,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 125.73 0)
+			(at 149.86 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5568,7 +5579,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 125.73 0)
+			(at 149.86 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5577,7 +5588,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 149.86 125.73 0)
+			(at 149.86 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6564,7 +6575,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "b26f4802-0f53-479a-bc6e-ce82ff5d3e3f")
+			(uuid "b26f4802-0f53-479a-bc6e-ce82ff5d3e40")
 		)
 		(instances
 			(project ""
@@ -6764,7 +6775,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "850ffda3-7eb4-42ac-b963-4748c306eb27")
+			(uuid "850ffda3-7eb4-42ac-b963-4748c306eb28")
 		)
 		(instances
 			(project ""
@@ -6983,7 +6994,7 @@
 	)
 	(sheet
 		(at 158.75 115.57)
-		(size 45.72 35.56)
+		(size 29.21 35.56)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -7012,7 +7023,7 @@
 			)
 		)
 		(pin "VCC" passive
-			(at 158.75 119.38 180)
+			(at 158.75 118.11 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7022,7 +7033,7 @@
 			(uuid "30bd56ea-e7ce-4c54-b311-ecf614d6bc55")
 		)
 		(pin "SDA" bidirectional
-			(at 158.75 127 180)
+			(at 158.75 125.73 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7031,8 +7042,8 @@
 			)
 			(uuid "3ef59dd0-8ddd-4b69-a20d-33f46e2bfdfa")
 		)
-		(pin "SCK" passive
-			(at 158.75 129.54 180)
+		(pin "SCL" passive
+			(at 158.75 128.27 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7042,7 +7053,7 @@
 			(uuid "e574fbc5-566a-49d2-96b9-f7f02606fe62")
 		)
 		(pin "GND" passive
-			(at 158.75 121.92 180)
+			(at 158.75 120.65 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7052,7 +7063,7 @@
 			(uuid "0a3a862f-af9f-43fc-a47b-95f73fecff3a")
 		)
 		(pin "RX" input
-			(at 158.75 137.16 180)
+			(at 158.75 135.89 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7062,7 +7073,7 @@
 			(uuid "eef1ad50-1e3c-4e46-8978-1b41a54d1a5c")
 		)
 		(pin "TX" output
-			(at 158.75 134.62 180)
+			(at 158.75 133.35 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7072,7 +7083,7 @@
 			(uuid "24c134d2-8ea4-40ca-b43b-47eaef377b87")
 		)
 		(pin "D2" bidirectional
-			(at 204.47 127 0)
+			(at 187.96 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7082,7 +7093,7 @@
 			(uuid "90ec4706-844e-4a54-a16f-7d7dbeb0c80a")
 		)
 		(pin "D3" bidirectional
-			(at 204.47 129.54 0)
+			(at 187.96 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7092,7 +7103,7 @@
 			(uuid "77bfbdaf-253c-4609-b8d1-1efae1a51c8b")
 		)
 		(pin "D4" bidirectional
-			(at 204.47 132.08 0)
+			(at 187.96 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7102,7 +7113,7 @@
 			(uuid "61a78eb9-239b-46fe-b088-20b1d6e2aa7b")
 		)
 		(pin "D5" bidirectional
-			(at 204.47 134.62 0)
+			(at 187.96 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7112,7 +7123,7 @@
 			(uuid "ed2a4c89-08b3-4bbe-aa3c-2c2c1b143e62")
 		)
 		(pin "D6" bidirectional
-			(at 204.47 137.16 0)
+			(at 187.96 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7122,7 +7133,7 @@
 			(uuid "b1ff193c-c10f-4151-bc44-3ebe7bcab1a7")
 		)
 		(pin "D7" bidirectional
-			(at 204.47 139.7 0)
+			(at 187.96 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7132,7 +7143,7 @@
 			(uuid "95096e3f-181b-4837-b129-a8c9c2143f1f")
 		)
 		(pin "D8" bidirectional
-			(at 204.47 142.24 0)
+			(at 187.96 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7142,7 +7153,7 @@
 			(uuid "bc7f238e-66ab-4059-bede-9e485415fdbf")
 		)
 		(pin "RESET" passive
-			(at 158.75 147.32 180)
+			(at 158.75 148.59 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7152,7 +7163,7 @@
 			(uuid "c5645631-54b6-4c4a-8b7e-1fa0ecfc4c91")
 		)
 		(pin "MOSI" input
-			(at 158.75 142.24 180)
+			(at 158.75 143.51 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7162,7 +7173,7 @@
 			(uuid "dfa4c1e1-1a32-4025-9df0-7f7043cac4db")
 		)
 		(pin "MISO" output
-			(at 158.75 139.7 180)
+			(at 158.75 146.05 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7170,6 +7181,16 @@
 				(justify left)
 			)
 			(uuid "025c7f40-78e1-49fd-b772-c6e372af9220")
+		)
+		(pin "SCK" passive
+			(at 158.75 140.97 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9e2c1439-f368-4fa5-972b-c47439913966")
 		)
 		(instances
 			(project "MCU_Datalogger"
