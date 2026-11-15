@@ -53,12 +53,13 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "MICROCONTROLLER MCU, 8 BIT, ATMEGA, 20MH; MICROCONTROLLER MCU, 8 BIT, ATMEGA, 20MHZ, TQFP-32; Controller Family/Series:ATmega; CPU Speed:20MHz; Program Memory Size:32KB; RAM Memory Size:2KB; No. of Pins:32Pins; MCU Case Style:TQFP; No. of I/O's:23I/O's; Packaging:Each"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
@@ -71,16 +72,6 @@
 				)
 			)
 			(property "DATASHEET_URL" "https://s3.amazonaws.com/snapeda/datasheet/ATMEGA328PAU_Microchip_Technology.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "DESCRIPTION" "MICROCONTROLLER MCU, 8 BIT, ATMEGA, 20MH; MICROCONTROLLER MCU, 8 BIT, ATMEGA, 20MHZ, TQFP-32; Controller Family/Series:ATmega; CPU Speed:20MHz; Program Memory Size:32KB; RAM Memory Size:2KB; No. of Pins:32Pins; MCU Case Style:TQFP; No. of I/O's:23I/O's; Packaging:Each"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3730,6 +3721,16 @@
 		)
 		(uuid "02a6d122-33c0-42da-a78d-c181c3f46c70")
 	)
+	(label "ABC123"
+		(at 184.15 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "06073c92-cf26-466e-900e-6a3d850fa2bd")
+	)
 	(label "VCC"
 		(at 35.56 127 0)
 		(effects
@@ -5294,7 +5295,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "3e7665e9-2d86-4ab8-8e2f-9b93a5cf78c1")
+			(uuid "3e7665e9-2d86-4ab8-8e2f-9b93a5cf78c2")
 		)
 		(instances
 			(project ""
@@ -6564,7 +6565,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "b26f4802-0f53-479a-bc6e-ce82ff5d3e3f")
+			(uuid "b26f4802-0f53-479a-bc6e-ce82ff5d3e40")
 		)
 		(instances
 			(project ""
@@ -6764,7 +6765,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "850ffda3-7eb4-42ac-b963-4748c306eb27")
+			(uuid "850ffda3-7eb4-42ac-b963-4748c306eb28")
 		)
 		(instances
 			(project ""
