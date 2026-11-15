@@ -4122,11 +4122,9 @@
 		(uuid "d5105092-7ff7-4009-ab53-29ddf1ce03e5")
 	)
 	(label "SCL"
-<<<<<<< HEAD
-		(at 158.75 129.54 180)
-=======
+	
 		(at 158.75 128.27 180)
->>>>>>> master
+
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7047,11 +7045,9 @@
 			(uuid "3ef59dd0-8ddd-4b69-a20d-33f46e2bfdfa")
 		)
 		(pin "SCL" passive
-<<<<<<< HEAD
-			(at 158.75 129.54 180)
-=======
+
 			(at 158.75 128.27 180)
->>>>>>> master
+
 			(effects
 				(font
 					(size 1.27 1.27)
